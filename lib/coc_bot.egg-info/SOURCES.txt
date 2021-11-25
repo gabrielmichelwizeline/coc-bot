@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+lib/coc_bot/__init__.py
+lib/coc_bot/bot.py
+lib/coc_bot.egg-info/PKG-INFO
+lib/coc_bot.egg-info/SOURCES.txt
+lib/coc_bot.egg-info/dependency_links.txt
+lib/coc_bot.egg-info/requires.txt
+lib/coc_bot.egg-info/top_level.txt
+lib/coc_bot/commands/__init__.py
+lib/coc_bot/commands/clans.py
+lib/coc_bot/commands/players.py
+lib/coc_bot/ssm/__init__.py
+lib/coc_bot/ssm/ssm.py

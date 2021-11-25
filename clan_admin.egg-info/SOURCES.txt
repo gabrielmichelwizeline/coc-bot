@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+clan_admin.egg-info/PKG-INFO
+clan_admin.egg-info/SOURCES.txt
+clan_admin.egg-info/dependency_links.txt
+clan_admin.egg-info/top_level.txt
+lib/__init__.py
+lib/bot.py

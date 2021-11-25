@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: coc-bot
+Version: 1.0
+Summary: Library to manage Discord bot commands.
+Home-page: UNKNOWN
+Author: Gabriel Michel
+Author-email: jose.michel@wizeline.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Copyright 2021, Wizeline. All rights reserved.
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE
+
+UNKNOWN
+

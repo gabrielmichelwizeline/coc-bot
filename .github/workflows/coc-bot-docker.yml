@@ -43,7 +43,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
-          tags: ${DOCKER_USERNAME}/${DOCKER_IMAGE}:$TIMESTAMP
+          tags: ${{secrets.DOCKER_USERNAME}}/${{secrets.DOCKER_IMAGE}}:${{ env.TIMESTAMP }}
 
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}

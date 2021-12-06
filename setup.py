@@ -11,8 +11,6 @@ setup(
     packages=find_packages(where='lib'),
     install_requires=[
         'boto3',
-        'discord.py',
-        'coc.py'
     ],
     classifiers=[
         'Environment :: Console',

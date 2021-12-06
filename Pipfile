@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 "coc.py" = "*"
 "discord.py" = "*"
+"aiohttp" = "3.5.4"
 
 [dev-packages]
 black = "*"

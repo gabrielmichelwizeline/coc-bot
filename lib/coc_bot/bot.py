@@ -6,17 +6,16 @@ import coc
 import discord
 from discord.ext import commands
 
-from coc_bot.ssm import ssm
 
-DEV_SITE_EMAIL = ssm.get_parameter_by_name("DEV_SITE_EMAIL")
-DEV_SITE_PASSWORD = ssm.get_parameter_by_name("DEV_SITE_PASSWORD")
-DISCORD_BOT_TOKEN = ssm.get_parameter_by_name("DISCORD_BOT_TOKEN")
+DEVELOPER_EMAIL_COC_API = os.environ.get('DEVELOPER_EMAIL_COC_API')
+DEVELOPER_PASSWORD_COC_API = os.environ.get('DEVELOPER_PASSWORD_COC_API')
+DISCORD_BOT_TOKEN = os.environ.get('DISCORD_BOT_TOKEN')
 
 
 bot = commands.Bot(command_prefix="?", intents=discord.Intents.all())
 coc_client = coc.login(
-    DEV_SITE_EMAIL,
-    DEV_SITE_PASSWORD,
+    DEVELOPER_EMAIL_COC_API,
+    DEVELOPER_PASSWORD_COC_API,
     key_names="coc.py tests",
     client=coc.EventsClient,
 )

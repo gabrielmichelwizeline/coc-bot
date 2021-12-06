@@ -38,12 +38,12 @@ jobs:
 
       - name: Build Docker image
         run: |
-        docker build . --tag $DOCKER_IMAGE:$TIMESTAMP
+          docker build . --tag $DOCKER_IMAGE:$TIMESTAMP
       
       - name: Tag Docker image
         run: |
-        docker tag $DOCKER_IMAGE $DOCKER_USERNAME/$DOCKER_IMAGE:$TIMESTAMP
+          docker tag $DOCKER_IMAGE $DOCKER_USERNAME/$DOCKER_IMAGE:$TIMESTAMP
         
       - name: Push Docker image
         run: |
-        docker push $DOCKER_USERNAME/$DOCKER_IMAGE:$TIMESTAMP
+          docker push $DOCKER_USERNAME/$DOCKER_IMAGE:$TIMESTAMP
